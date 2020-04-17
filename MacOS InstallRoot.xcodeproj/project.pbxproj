@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DEE870D244A7619001DD080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE870C244A7619001DD080 /* AppDelegate.swift */; };
+		3DEE870F244A7619001DD080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE870E244A7619001DD080 /* ContentView.swift */; };
+		3DEE8712244A7619001DD080 /* MacOS_InstallRoot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE8710244A7619001DD080 /* MacOS_InstallRoot.xcdatamodeld */; };
+		3DEE8714244A761A001DD080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEE8713244A761A001DD080 /* Assets.xcassets */; };
+		3DEE8717244A761A001DD080 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEE8716244A761A001DD080 /* Preview Assets.xcassets */; };
+		3DEE871A244A761A001DD080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEE8718244A761A001DD080 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DEE8709244A7619001DD080 /* MacOS InstallRoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS InstallRoot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEE870C244A7619001DD080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DEE870E244A7619001DD080 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DEE8711244A7619001DD080 /* MacOS_InstallRoot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MacOS_InstallRoot.xcdatamodel; sourceTree = "<group>"; };
+		3DEE8713244A761A001DD080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DEE8716244A761A001DD080 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DEE8719244A761A001DD080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DEE871B244A761A001DD080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEE871C244A761A001DD080 /* MacOS_InstallRoot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOS_InstallRoot.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DEE8706244A7619001DD080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DEE8700244A7619001DD080 = {
+			isa = PBXGroup;
+			children = (
+				3DEE870B244A7619001DD080 /* MacOS InstallRoot */,
+				3DEE870A244A7619001DD080 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DEE870A244A7619001DD080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DEE8709244A7619001DD080 /* MacOS InstallRoot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DEE870B244A7619001DD080 /* MacOS InstallRoot */ = {
+			isa = PBXGroup;
+			children = (
+				3DEE870C244A7619001DD080 /* AppDelegate.swift */,
+				3DEE870E244A7619001DD080 /* ContentView.swift */,
+				3DEE8713244A761A001DD080 /* Assets.xcassets */,
+				3DEE8718244A761A001DD080 /* Main.storyboard */,
+				3DEE871B244A761A001DD080 /* Info.plist */,
+				3DEE871C244A761A001DD080 /* MacOS_InstallRoot.entitlements */,
+				3DEE8710244A7619001DD080 /* MacOS_InstallRoot.xcdatamodeld */,
+				3DEE8715244A761A001DD080 /* Preview Content */,
+			);
+			path = "MacOS InstallRoot";
+			sourceTree = "<group>";
+		};
+		3DEE8715244A761A001DD080 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DEE8716244A761A001DD080 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DEE8708244A7619001DD080 /* MacOS InstallRoot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEE871F244A761A001DD080 /* Build configuration list for PBXNativeTarget "MacOS InstallRoot" */;
+			buildPhases = (
+				3DEE8705244A7619001DD080 /* Sources */,
+				3DEE8706244A7619001DD080 /* Frameworks */,
+				3DEE8707244A7619001DD080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MacOS InstallRoot";
+			productName = "MacOS InstallRoot";
+			productReference = 3DEE8709244A7619001DD080 /* MacOS InstallRoot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DEE8701244A7619001DD080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "John Seabourn";
+				TargetAttributes = {
+					3DEE8708244A7619001DD080 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DEE8704244A7619001DD080 /* Build configuration list for PBXProject "MacOS InstallRoot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DEE8700244A7619001DD080;
+			productRefGroup = 3DEE870A244A7619001DD080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DEE8708244A7619001DD080 /* MacOS InstallRoot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DEE8707244A7619001DD080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEE871A244A761A001DD080 /* Main.storyboard in Resources */,
+				3DEE8717244A761A001DD080 /* Preview Assets.xcassets in Resources */,
+				3DEE8714244A761A001DD080 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DEE8705244A7619001DD080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEE8712244A7619001DD080 /* MacOS_InstallRoot.xcdatamodeld in Sources */,
+				3DEE870F244A7619001DD080 /* ContentView.swift in Sources */,
+				3DEE870D244A7619001DD080 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DEE8718244A761A001DD080 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DEE8719244A761A001DD080 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DEE871D244A761A001DD080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DEE871E244A761A001DD080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3DEE8720244A761A001DD080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MacOS InstallRoot/MacOS_InstallRoot.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOS InstallRoot/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MacOS InstallRoot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnseabourn.MacOS-InstallRoot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3DEE8721244A761A001DD080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MacOS InstallRoot/MacOS_InstallRoot.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOS InstallRoot/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MacOS InstallRoot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnseabourn.MacOS-InstallRoot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DEE8704244A7619001DD080 /* Build configuration list for PBXProject "MacOS InstallRoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEE871D244A761A001DD080 /* Debug */,
+				3DEE871E244A761A001DD080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DEE871F244A761A001DD080 /* Build configuration list for PBXNativeTarget "MacOS InstallRoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEE8720244A761A001DD080 /* Debug */,
+				3DEE8721244A761A001DD080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3DEE8710244A7619001DD080 /* MacOS_InstallRoot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3DEE8711244A7619001DD080 /* MacOS_InstallRoot.xcdatamodel */,
+			);
+			currentVersion = 3DEE8711244A7619001DD080 /* MacOS_InstallRoot.xcdatamodel */;
+			path = MacOS_InstallRoot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3DEE8701244A7619001DD080 /* Project object */;
+}
