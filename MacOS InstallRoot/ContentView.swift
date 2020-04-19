@@ -9,12 +9,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        VStack {
+            Image("logo")
+                .resizable()
+                .scaledToFit()
+                .cornerRadius(16)
+                .padding()
+            Text("macOS InstallRoot")
+                .font(.largeTitle)
+                .foregroundColor(Color.black)
+            Button(action: {
+                installCerts()
+            }) {
+                Text("Install DoD Certs")
+                .font(.headline)
+                .foregroundColor(Color.black)
+                .background(Color.gray)
+                .padding()
+                .background(Color.gray)
+                .cornerRadius(16)
+            }
+        .buttonStyle(PlainButtonStyle())
+            .padding(30)
+            Text("version 1.0")
+                .foregroundColor(Color.black)
+                .padding()
+        }.frame(width: 600, height: 400, alignment: .center)
+            .background(Color.white)
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
