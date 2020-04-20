@@ -30,7 +30,7 @@ prompt() {
 
     if [ "$authPass" == 1 ]
     then
-        osascript -e 'tell application "Finder"' -e 'activate' -e 'display dialog "User aborted." with icon stop buttons {"OK"}' -e 'end tell'
+        osascript -e 'tell application "System Events"' -e 'activate' -e 'display dialog "User aborted." buttons {"OK"}' -e 'end tell'
         /bin/echo "User aborted. Exiting..."
         exit 0
     fi
@@ -115,6 +115,6 @@ do
         rm $HOME/Downloads/"${item}"
     done
 done
-osascript -e 'tell application "Finder"' -e 'activate' -e 'display dialog "Certificates installed successfully." with icon note buttons {"OK"}' -e 'end tell'
+osascript -e 'tell application "System Events"' -e 'activate' -e 'display dialog "Certificates installed successfully." buttons {"OK"}' -e 'end tell'
 echo "Cleaning up system"
 rm AllCerts.zip
